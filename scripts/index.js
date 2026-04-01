@@ -14,7 +14,7 @@ function calcular(){
 
     valorFinal = document.getElementById('out-lucro');
     valorFinal.innerText = "R$" + lucroArredondado.toFixed(2); 
-g
+
     if(lucroArredondado < 50) {
         valorFinal.style.color = "red";
     } else {
